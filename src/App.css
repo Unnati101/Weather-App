@@ -1,0 +1,40 @@
+/* MyForm.css */
+*{
+  background-color:  rgba(184, 184, 196, 0);
+}
+
+.my-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(56, 0, 19);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .butt {
+    background-color: white;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
